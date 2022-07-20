@@ -11,16 +11,19 @@
 
 # PROJETOS REALIZADOS DURANTE O CURSO
 
-- [Stage 02](#stage-02)
+- [Stage 02]
   - [Projeto 01](#projeto-01)
   - [Projeto 02](#projeto-02)
   - [Projeto 03](#projeto-03)
-- [Stage 03](#stage-02)
+- [Stage 03]
   - [Projeto 04](#projeto-04)
   - [Projeto 05](#projeto-05)
   - [Projeto 06](#projeto-06)
   - [Projeto 07](#projeto-07)
   - [Projeto 08](#projeto-08)
+- [Stage 05]
+  - [Projeto 09](#projeto-09)
+
 
 
 <br>
@@ -37,3 +40,7 @@
 ### [Projeto 03](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2002/03.LandingPage%20-%20RocketSect)
 
 ![03.LandingPage - RocketSect](https://i.imgur.com/e3gCs6a.jpg)
+
+### [Projeto 09](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2005/FocusTimerPomodoroMethod)
+
+![09. FocusTimerPomodoroMethod](https://i.imgur.com/kdyCrnx.jpg)
