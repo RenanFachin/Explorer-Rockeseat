@@ -2,16 +2,22 @@
 <h1 align="center">
     <a href="https://www.rocketseat.com.br/explorer"> 🚀 Explorer </a>
 </h1>
-<p align="center"> 💻 Pasta onde serão armazenados os projetos realizados durante as aulas do programa EXPLORER da ROCKESEAT</a>. </p>
+<p align="center">Pasta onde serão armazenados os projetos realizados durante as aulas do programa EXPLORER da ROCKESEAT</a>. </p>
 
-# Índice dos projetos
+<br>
+<br>
+<br>
+<br>
+
+# PROJETOS REALIZADOS DURANTE O CURSO
 
 - [Stage 02](#stage-02)
   - [Projeto 01](#projeto-01)
   - [Projeto 02](#projeto-02)
   - [Projeto 03](#projeto-03)
 
-
+<br>
+<br>
 ## Stage 02
 
 ### [Projeto 01](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2002/01.LandingPage-%20Moveis%20Customizados)
