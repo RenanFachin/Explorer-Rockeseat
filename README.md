@@ -49,6 +49,10 @@
 
 ![05.Projeto-Responsividade](https://i.imgur.com/bmJ0BbK.jpg)
 
+### [Projeto 06](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2003/06.%20Responsividade-Avancado)
+
+![06.Responsividade-Avancado](https://i.imgur.com/pzkLyF6.jpg)
+
 ### [Projeto 09](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2005/FocusTimerPomodoroMethod)
 
 ![09. FocusTimerPomodoroMethod](https://i.imgur.com/kdyCrnx.jpg)
