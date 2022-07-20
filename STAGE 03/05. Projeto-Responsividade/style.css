@@ -1,0 +1,131 @@
+*{
+    /*Retirando os estilos padrões*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /*Fazer isto para que fique mais facil a implementação do REM como medida relativa*/
+    /*Com essa alteração, basta agora pegar tudo que tava em px e dividar por 10 e ter em REM*/
+    font-size: 62.5%; /*= 10 px*/
+}
+
+body{
+    /*Importanto fontes*/
+    font-family: 'Epilogue', sans-serif;
+
+    /*Adicionando uma cor de fundo*/
+    background: #ECE9FD;
+
+    /*Colocando um padding*/
+    padding: 6.0rem 2.3rem 6.6rem;
+
+    /*1.6*10px = 16, ou seja, define novamente como padrão uma fonte de tamanho 16px*/
+    font-size: 1.6rem;
+}
+
+main{
+    max-width: 33.0rem;
+    margin: 0 auto; /*Alinha no meio da tela*/
+}
+
+h1{
+    font-weight: 800;
+    font-size: 4rem;
+    line-height: 4.8rem;
+    color: #090039;
+
+    margin-bottom: 1.5rem;
+}
+
+/*Para pegar o primeiro P dentro do MAIN "p:first-child"*/
+main p:first-child{
+    color:#7158EF;
+    text-transform: uppercase;
+    letter-spacing: 3px;    /*Quando os tamanhos são pequenos = deixar em PX*/
+    line-height: 3.2rem;
+
+    margin-bottom: 1.7rem;
+}
+
+/*Para pegar o p que tem um anterior h1, ou seja, o segundo P*/
+h1 + p{
+    color: rgba(10, 0, 57, 0.64);
+    line-height: 3.2rem;
+
+    margin-bottom: 3.2rem;
+}
+
+main a{
+    color: #090039;
+
+    /*Retirando os estilos padrões de link*/
+    text-decoration: none;
+}
+
+main a:hover{
+    color: #7158EF;
+    font-weight: bold;
+}
+
+ul{
+    /*Retirando uns pontinhos que vem padrão do ul e li*/
+    list-style: none;
+
+    margin-top: 7.2rem;
+}
+
+ul li {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    color: #090039;
+
+    max-width: 25.7rem;
+
+    display: flex;
+    gap: 3.8rem;
+}
+
+ul li span{
+    font-weight: 800;
+    font-size: 7.2rem;
+    line-height: 8.0rem;
+
+    letter-spacing: -2px;   /*Quando os tamanhos são pequenos = deixar em PX*/
+
+    color: #090039;
+}
+
+    /*Pegar todo li que tenha um li anterior a ele*/
+    ul li+li{
+        margin-top: 3.2rem;
+}
+
+
+/*Quanto a largura mínima for de 700px para cima =*/
+@media(min-width: 700px) {
+    body{
+        padding: 8rem;
+    }
+
+    main{
+        display: flex;
+        gap: 10rem;
+
+        max-width: 1020px;
+    }
+
+    main >div{
+        max-width: 484px;
+    }
+
+    ul li{
+        gap: 5.3rem;
+        max-width: 450px;
+        align-items: center;
+    }
+
+
+}

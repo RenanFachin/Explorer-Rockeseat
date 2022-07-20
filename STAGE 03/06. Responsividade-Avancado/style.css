@@ -1,0 +1,217 @@
+*{
+    /*Resetando as propriedades iniciais*/
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /*Declarando variáveis de estilo de fonte*/
+    --ff-heading: 'Epilogue', sans-serif;
+    --ff-texting: 'Open sans', sans-serif;
+
+    --hue: 250;
+    /*Declarando uma variável para determinar a cor de fundo da página*/
+    --bg-primary: hsl(var(--hue), 22%, 20%);
+    /*Declarando uma variável para ser a cor dos textos principais*/
+    --fc-primary: #ffffff;
+    /*Declarando uma segunda cor para ser utilizada aos textos*/
+    --fc-secondary: hsl(var(--hue), 50%, 80%);
+
+    --fc-card: hsl(var(--hue), 100%, 11%);
+
+    /*Definindo um font-size para ajudar as medidas de px e rem*/
+    font-size: 62.5%;
+    --fs-body: 1.6rem;
+    --fs-heading: clamp(4rem, 1rem + 5vw, 5.6rem);
+    --fs-heading-sm: clamp(3rem, 0.5rem + 4vw, 4rem);
+}
+
+body{
+    /*Fonte utilizada em todos elementos dentro do body*/
+    font-family: var(--ff-texting);
+
+    /*Cor de fundo e cor dos textos*/
+    background-color: var(--bg-primary);
+    color: var(--fc-primary);
+
+    /*Tamanho de fonte*/
+    font-size: var(--fs-body);
+}
+
+.page{
+    /*Definindo para todos os elementos que estão dentro da classe page uma box de 330px*/
+    max-width: clamp(33rem, 30rem + 60vw, 117rem);
+
+    padding: 0 5rem;
+    /*Alinhando*/
+    margin: 0 auto;
+}
+
+
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+header{
+    /*Definindo 100px de margin da box do header até o topo, 0 para os lados e 80px para baixo (até o main)*/
+    margin: 10rem 0 8rem;
+
+    /*Definindo a fonte utilizada*/
+    font-family: var(--ff-heading);
+
+    /*Alinhando os elementos do header ao centro (p e h1)*/
+    text-align: center;
+
+    animation: topdown 700ms;
+}
+
+header p{
+    /*cor da fonte*/
+    color: var(--fc-secondary);
+    /*Transformando em maiusculo */
+    text-transform: uppercase;
+
+    /*Definindo uma distância entre letras*/
+    letter-spacing: 3px;
+    /*Caracteristicas do texto*/
+    line-height: 3.2rem;
+    font-weight: 400;
+
+    margin-bottom: 1.7rem;
+}
+
+header h1{
+    font-size: var(--fs-heading);
+    font-weight: 800;
+    line-height: 4.8rem;
+
+}
+
+main{
+    display: grid; /*Substitui o uso de display: flex +  flex-direction:column */
+    gap: 3.2rem;
+
+    animation: downtop 700ms 350ms backwards;
+
+    /*Quando a animação tiver delay, será obrigatório o uso de forwards ou backwards para funcionar corretamente*/
+}
+
+.card{
+    position: relative;
+
+    font-family: var(--ff-heading);
+}
+
+.card img{
+    height: 41.6rem;
+
+    object-fit: cover;
+    border-radius: 6px;
+
+    transition: all 400ms;
+
+    filter:brightness(0.5);
+}
+
+.card img:hover{
+    transform: scale(1.12);
+
+    opacity: 0.4;
+}
+
+.card h2{
+    position: absolute;
+    bottom: 5.2rem;
+    left: 2.8rem;
+
+    font-size: var(--fs-heading-sm);
+    font-weight: 800;
+
+    /*Posicionando os elementos dentro do h2 em colunas*/
+    display: flex;
+    flex-direction: column;
+    gap: 2.8rem;
+}
+
+.card h2 span{
+    border-radius: 2rem;
+    background-color: var(--fc-primary);
+    font-size: var(--fs-body);
+    color: var(--fc-card);
+    font-weight: 400;
+
+    padding: 0 1.6rem;
+    height: 3.8rem;
+
+    display: inline-flex; /*span nao recebe a propriedade height só adicionando inline-flex*/
+    align-items: center;
+
+    width: fit-content; /*Para deixar ele só com o tamanho do que ta escrito dentro do elemento span*/
+}
+
+
+@keyframes topdown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes downtop{
+    0% {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (min-width: 700px){
+    main{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 930px){
+
+    /*Fazendo os grid*/
+    main{
+        grid-template-areas: "A  B B"
+        "C C D";
+    }
+
+    /*Definindo que a div 1 é o A*/
+    main div:nth-child(1){
+        grid-area: A;
+    }
+
+    /*Definindo que a div 2 é o B*/
+    main div:nth-child(2){
+        grid-area: B;
+    }
+
+    /*Definindo que a div 3 é o C*/
+    main div:nth-child(3){
+        grid-area: C;
+    }
+
+    /*Definindo que a div 4 é o D*/
+    main div:nth-child(4){
+        grid-area: D;
+    }
+
+}
+
+
+
