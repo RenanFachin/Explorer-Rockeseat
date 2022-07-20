@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root{
+    --ff-roboto: 'Roboto', sans-serif;
+
+    --bg-color: #121214;
+
+    --base-color: 194;
+    --bg-primary-light: hsla(var(--base-color), 100%, 63%, 0.13); 
+    --fc-primary-color: hsl(var(--base-color), 100%, 63%,);
+
+    --text-color: #ffffff;
+    
+
+    font-size: 62.5%;
+}
+
+
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+
+    font-family: var(--ff-roboto);
+
+    display: grid;
+    min-height: 100vh;
+}
+
+main{
+    justify-self: center; /*Eixo X*/
+    align-self: end; /*Eixo Y*/
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+button svg{
+    width: clamp(3.2rem, 2rem + 22vw, 6.4rem);
+}
+
+/*Modificando rapidamente a cor dos botões em svg*/
+.play svg path,
+.pause svg path,
+.sound-on svg path{
+    fill: var(--bg-primary-light);
+}
+
+
+.hide{
+    display: none;
+}
+
+#timer{
+    font-size: clamp(4rem, 4rem + 10vw, 8.8rem);
+
+    /*Juntando os elementos <span>*/
+    display: flex;
+
+    margin-bottom: 1.6rem;
+}
+
+#controls{
+    background-color: var(--bg-primary-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.2rem;
+
+    border-radius: 9999px;
+
+    width: clamp(10rem, 10rem + 30vw, 22.8rem);
+    /*vw para mudar conforme a largura (viewport width)*/
+    height: clamp(8rem, 1rem + 6vw, 10.8rem);
+}
+
+
+footer{
+    justify-self: end; /*Eixo X*/
+    align-self: end; /*Eixo Y*/
+
+    padding: 0 4rem 3.2rem 0;
+}
