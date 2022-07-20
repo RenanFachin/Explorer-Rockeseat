@@ -1,0 +1,156 @@
+body{
+    /*Retirando as margens padrões que os navegadores impoem*/
+    margin: 0px;
+
+    /*Adicionando fontes externas*/
+    font-family: 'Open Sans', sans-serif;
+
+    /*Modificando a cor de fundo da página*/
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+    
+    min-height: 100vh;
+}
+
+.page{
+    /*Definindo a largura da página*/
+    width: 1000px;
+    /*Margem superior zerada e para os lados em automático*/
+    margin: 0px auto;
+    /*Preenchimento de 65px em relação ao BODY*/
+    padding-top: 65px;
+}
+
+nav{
+    /*Fazendo o alinhamento e colocando lado a lado elementos de dentro da box NAV*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /*Fazendo uma margem entre o elemento NAV e o inferior (MAIN) de 55px*/
+    margin-bottom: 55px;
+}
+
+ul{
+    /*Deixando os elementos contidos na ul com display flex (um ao lado do outro)*/
+    display: flex;
+    /*Retirando o estilo de lista que vem default da ul e li*/
+    list-style: none;
+    /*Adicionando uma distância de 48px entre os elementos contidos na ul*/
+    gap: 48px;
+    /*Margem e preenchimentos zerados*/
+    margin: 0px;
+    padding: 0px;
+    /*Fonte personalizada*/
+    font-family: 'Mulish', sans-serif;
+}
+
+a{
+    /*a TAG A terá está cor e o texto foi retirado qualquer "decoration"*/
+    color: #1F1534;
+    text-decoration: none;
+}
+
+ul li a{
+    /*Colocando opacidade nos elementos a dentro da li da lista não ordenada ul*/
+    opacity: 0.5;
+}
+
+/*Pseudo class*/
+/*Ao passar o mouse pelos elementos contidos em ul, li e a acontecerá alguma coisa*/
+ul li a:hover{
+    /*Ele deixará o texto em negrito e também irá retirar a opacidade de 0.5 que os elementos contém*/
+    font-weight: bold;
+    opacity: 1;
+}
+
+main{
+    /*Fazendo o alinhamento e colocando lado a lado elementos de dentro da box MAIN*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    /*Mudando as características da fonte. Estilo, tamanho da fonte, cor e etc*/
+    font-family: 'Mulish', sans-serif;
+    font-size: 49px;
+    line-height: 56px;
+    color: #1F1534;
+    font-weight: normal;
+
+    /*Tamanho da box que contém o elemento H1*/
+    width: 490px;
+}
+
+h1 span{
+    /*Os elementos SPAN contidos dentro do H1 terão estas propriedades*/
+    color: #89C5CC;
+    font-weight: bold;
+}
+
+section p{
+    /*Os elementos p contidos na SECTION terão estas propriedades de texto*/
+    font-size: 14px;
+    line-height: 28px;
+    color: #7D7987;
+
+    /*Os elementos p contidos na SECTION terão uma margem de 40px para top e bottom e 0 para left e right*/
+    margin: 40px 0;
+    
+}
+
+
+button{
+    /*Características de texto*/
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+
+    /*Altura e Largura da box*/
+    padding: 14px 32px 15px;
+
+    /*Alterando caracteristicas de borda e cor de fundo da box*/
+    background: #69b99d;
+    border: none;
+
+    /*Fazendo o alinhamento e colocando lado a lado elementos de dentro da box*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    /*Adicionando bordas arredondadas ao botão*/
+    border-radius: 4px;
+
+    /*Mudar efeito do cursor*/
+    cursor:pointer;
+}
+
+/*Adicionando a pseudo classe HOUVER para mudar de cor ao passar o mouse pelo botão*/
+button:hover{
+    background: #316a56;
+}
+
+
+footer{
+    /*Alterando as propriedades do texto dos elementos contidos no FOOTER*/
+    font-size: 14px;
+    line-height: 28px;
+
+    /*Alinhando o texto e colocando margem superior ao footer (em relação ao elemento MAIN)*/
+    text-align: center;
+    margin-top: 80px;
+}
+
+footer a{
+    /*a tag A contida dentro do footer terá esta propriedade de alteração de texto (negrito)*/
+    font-weight: bold;
+}
+
+#balls{
+    /*Classe criada para as bolinhas*/
+    /*A posição será fixa no canto direito(right) inferior(bottom)*/
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
