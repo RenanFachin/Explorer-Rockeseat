@@ -41,6 +41,14 @@
 
 ![03.LandingPage - RocketSect](https://i.imgur.com/e3gCs6a.jpg)
 
+### [Projeto 04](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2003/04.%20Formulario)
+
+![04.Formulario](https://i.imgur.com/eAxsX4S.jpg)
+
+### [Projeto 05](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2003/05.%20Projeto-Responsividade)
+
+![05.Projeto-Responsividade](https://i.imgur.com/bmJ0BbK.jpg)
+
 ### [Projeto 09](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2005/FocusTimerPomodoroMethod)
 
 ![09. FocusTimerPomodoroMethod](https://i.imgur.com/kdyCrnx.jpg)
