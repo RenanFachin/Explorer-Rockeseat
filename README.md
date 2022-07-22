@@ -53,6 +53,10 @@
 
 ![06.Responsividade-Avancado](https://i.imgur.com/pzkLyF6.jpg)
 
+### [Projeto 08](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2003/08.%20Desafio-SpaceCreamResponsiveProject)
+
+![08. Space Cream Project](https://i.imgur.com/QJhXGjj.jpg)
+
 ### [Projeto 09](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2005/FocusTimerPomodoroMethod)
 
 ![09. FocusTimerPomodoroMethod](https://i.imgur.com/kdyCrnx.jpg)
