@@ -53,6 +53,10 @@
 
 ![06.Responsividade-Avancado](https://i.imgur.com/pzkLyF6.jpg)
 
+### [Projeto 07](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2003/07.%20Desafio-Formulario)
+
+![07. Desafio-Formulário](https://i.imgur.com/fNWhRVL.jpg)
+
 ### [Projeto 08](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2003/08.%20Desafio-SpaceCreamResponsiveProject)
 
 ![08. Space Cream Project](https://i.imgur.com/QJhXGjj.jpg)
