@@ -1,30 +1,29 @@
 const screenOne = document.querySelector('.screenOne')
 const screenTwo = document.querySelector('.screenTwo')
-
+const btnTry = document.querySelector("#btnTry")
+const btnReset = document.querySelector("#btnReset")
 const randomNumber = Math.round(Math.random() * 10)
 let xAttempts = 1 //variável de controle
 
+//Eventos
+// No evento de click, terá a função handlexxxxClick
+btnTry.addEventListener('click', handleTryClick) // passada como referência
+btnReset.addEventListener('click', handleResetClick) // função anonima sendo passada dentro
 
-// Função CALLBACK (função passada como argumento de outra função)
+// Funções
 function handleTryClick(event){
     event.preventDefault() // Para retirar o comportamento padrão do forms/botão (Não faça o padrão)
 
     const input = document.querySelector('#inputNumber') // Pegando a id inputNumber do HTML
 
-
     //Se o número do que ta no inputNumber for igual ao numero gerado pela constante randomNumer
     if(Number(input.value) == randomNumber){
 
-        // buscar no documento o elemento que tenha a classe SCREENONE e ADICIONAR a classe HIDE nele
-        screenOne.classList.add('hide') 
-
-        // buscar no documento o elemento que tenha a classe SCREENTWO e REMOVER a classe HIDE nele
-        screenTwo.classList.remove('hide')
-
+        toggleScreen()
 
         //Modificando o texto que aparece como número de tentativas realizadas
-        document
-        .querySelector('.screenTwo h2')
+        screenTwo
+        .querySelector('h2')
         .innerText = `Você acertou em ${xAttempts} tentativas.`
     }
 
@@ -32,19 +31,12 @@ function handleTryClick(event){
     xAttempts++ // incrementando a variável, que será o número de tentativas
 }
 
-
-// Eventos
-const btnTry = document.querySelector("#btnTry")
-const btnReset = document.querySelector("#btnReset")
-
-
-// No evento de click, terá a função handleClick
-btnTry.addEventListener('click', handleTryClick) // passada como referência
-
-// função anonima sendo passada dentro
-btnReset.addEventListener('click', function(){
-    screenOne.classList.remove('hide') 
-    screenTwo.classList.add('hide')
-
+function handleResetClick(){
+    toggleScreen()
     xAttempts = 1
-})
+}
+
+function toggleScreen(){
+    screenOne.classList.toggle('hide') 
+    screenTwo.classList.toggle('hide')
+}
