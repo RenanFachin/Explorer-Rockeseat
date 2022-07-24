@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+    --ff-body: 'DM Sans', sans-serif;
+    --ff-title: 'Montserrat', sans-serif;
+
+    --bg-gradientColor: linear-gradient(287.56deg, #C2E9FB 0%, #A1C4FD 100%);
+    --bg-mainContent: #FFFFFF;
+    --bgColor-input: #DCE2E9;
+    --bgColor-button: #7879F1;
+
+    --color: 238;
+    --fc-color: hsl(var(--color), 27%, 28%);
+    --fc-color-opacity: hsl(var(--color), 20%, 28%);
+    --fc-color-all: #FFF;
+
+    --fs-h1: 2.4rem;
+
+}
+
+.hide{
+    display: none;
+}
+
+body{
+    background: var(--bg-gradientColor);
+    font-size: 1.6rem;
+
+    /* Maneira para centralizar*/
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+body, button, input{
+    font-family: var(--ff-body);
+}
+
+button{
+    background-color: var(--bgColor-button);
+    color: var(--fc-color-all);
+    font-weight: 700;
+    border-radius: 0 0.4rem 0.4rem 0;
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+
+button:hover{
+    filter:hue-rotate(45deg)
+}
+
+main{
+    background: var(--bg-mainContent);
+    box-shadow: 0px .2rem .4rem rgba(0,0,0,0.1);
+    border-radius: 0.6rem;
+    padding: 4.8rem 6.4rem 6.4rem;
+
+    width: min(42.8rem, 90%);
+    margin-top: -12rem; /* Para subir um pouco*/
+
+    text-align: center;
+}
+
+h1{
+    font-family: var(--ff-title);
+    font-size: var(--fs-h1);
+    margin-bottom: 1.6rem;
+    color: var(--fc-color);
+}
+
+p{
+    color: var(--fc-color-opacity);    
+}
+
+form{
+    margin-top: 4.8rem;
+    display: flex;  /*Retirando a distância entre o input e button*/
+    justify-content: center;
+}
+
+input, button{
+    border: none; /* Resetando as bordas */
+    padding: 1.6rem;
+}
+
+input{
+    background-color: var(--bgColor-input);
+    width: 7rem; /* Tamanho limite do botão */
+    border-radius: 0.4rem 0 0 0.4rem;
+}
+
+
+/* ScreenTwo */
+h2{
+    font-size: var(--fs-h1);
+    font-weight: 400;
+
+    margin-bottom: 3.2rem;
+}
+
+.screenTwo button{
+    border-radius: 0.4rem;
+}
