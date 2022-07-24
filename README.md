@@ -23,6 +23,7 @@
   - [Projeto 08](#projeto-08)
 - [Stage 05]
   - [Projeto 09](#projeto-09)
+  - [Projeto 10](#projeto-10)
 
 
 
@@ -64,3 +65,7 @@
 ### [Projeto 09](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2005/FocusTimerPomodoroMethod)
 
 ![09. FocusTimerPomodoroMethod](https://i.imgur.com/kdyCrnx.jpg)
+
+### [Projeto 10](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2005/Jogodeadivinhacao)
+
+![10. FocusTimerPomodoroMethod](https://i.imgur.com/qZiaASN.jpg)
