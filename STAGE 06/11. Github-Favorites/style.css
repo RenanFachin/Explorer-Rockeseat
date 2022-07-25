@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+
+    /* Font family */
+    --ff-primary: 'Poppins', sans-serif;
+
+    /* Font Color */
+    --text-color: #303030;
+
+    --hue: 194;
+    --primary-color: hsl(var(--hue),100%, 63%)
+}
+
+body{
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background-color: rgb(250, 254, 255)
+}
+
+body *{
+    font-family: var(--ff-primary);
+}
+
+.sr-only{
+    /* Screen Reader Only */
+    /* Texto existe mas não existe ao mesmo tempo */
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden; /* Não permite o "transbordamento" da box*/
+    clip: rect(0,0,0,0); /* Cria um retângulo quase que inexistente*/
+    white-space: nowrap; /* Não permite a "quebra de linha", força uma linha só*/
+    border-width: 0; /* Apenas para garantir que a borda não exista */
+}
+
+#app{
+    /* Largura máxima da "caixa" */
+    max-width: 500px;
+    /* Para alinhar no centro */
+    margin: 0 auto;
+
+    /* Padding para deixar uma margem dos objetos com a página */
+    padding: 2rem;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 2.5rem 0;
+}
+
+header h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.search{
+    /* display flex para garantir que os elementos fiquem lado a lado*/
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    height: 3.2rem;
+    border: 1px solid #ccc;
+    border-radius: 0.4rem 0 0 0.4rem;
+    padding: 0 0.8rem;
+}
+
+.search button{
+    background-color: var(--primary-color);
+    height: 3.2rem;
+    border-radius: 0 0.4rem 0.4rem 0;
+    border: none;
+    padding: 0 1rem;
+
+    cursor: pointer;
+}
+
+.search button:hover{
+    filter: brightness(1.1);
+}
+
+/* TABELA */
+table{
+    width: 100%;
+    border-collapse: collapse; /* Junta os espaços entre as bordas da tabela*/
+
+    box-shadow: 0 1rem 2rem -1rem rgba(0,0,0,0.3);
+}
+
+table *{
+    /* "Pega todos elementos dentro da tabela" e faça com que:*/
+    font-size: 1.4rem;
+    color: var(--text-color);
+}
+
+table th{
+    background: var(--primary-color);
+    text-align: left;
+    font-weight: 400;
+    padding: 1.5rem;
+}
+
+/* Aplica borda somente na esquerda cima*/
+table th:first-child{
+    border-top-left-radius: 0.4rem;
+}
+
+/* Aplica borda somente na direita cima*/
+table th:last-child{
+    border-top-right-radius: 0.4rem;
+}
+
+
+table tr:nth-child(odd){
+    /* EVEN = pares */
+    /* ODD = ímpares */
+    /* ou seja, pega todas as linhas impares e coloca:*/
+    background-color: #ddd;
+}
+
+table tr:nth-child(even){
+    /* EVEN = pares */
+    /* ODD = ímpares */
+    /* ou seja, pega todas as linhas impares e coloca:*/
+    background-color: #eee;
+}
+
+table td{
+    padding: 1.5rem;
+    text-align: left;
+
+}
+
+td.user{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+td.user img{
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    border-radius: 50%; /* deixa redondo*/
+}
+
+td.user a{
+    text-decoration: none;
+}
+
+td.user a p{
+    font-weight: 700;
+}
+
+td .remove{
+    background: none;
+    border: none;
+    color: red;
+
+    cursor: pointer;
+}
