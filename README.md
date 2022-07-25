@@ -24,8 +24,9 @@
 - [Stage 05]
   - [Projeto 09](#projeto-09)
   - [Projeto 10](#projeto-10)
-- [Stage 06]
   - [Projeto 11](#projeto-11)
+- [Stage 06]
+  - [Projeto 12](#projeto-12)
 
 
 
@@ -72,6 +73,10 @@
 
 ![10. FocusTimerPomodoroMethod](https://i.imgur.com/qZiaASN.jpg)
 
-### [Projeto 11](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2006/11.%20Github-Favorites)
+### [Projeto 11](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2005/11.%20FocusTimer)
 
-![11. GitHub Favorites](https://i.imgur.com/yOkvArq.jpg)
+![11. TimerProject](https://i.imgur.com/zkmWBv4.jpg)
+
+### [Projeto 12](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2006/11.%20Github-Favorites)
+
+![12. GitHub Favorites](https://i.imgur.com/yOkvArq.jpg)
