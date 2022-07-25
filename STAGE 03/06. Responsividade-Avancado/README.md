@@ -1,7 +1,6 @@
 
 
-<img src="https://i.imgur.com/bmJ0BbK.jpg">
-<img src="https://i.imgur.com/qRDykLu.jpg" >
+<img src="https://i.imgur.com/pzkLyF6.jpg">
 
 # Projeto-Responsividade
 Projeto criado para aprender mais sobre questões de responsividade, Mobile-first e etc
