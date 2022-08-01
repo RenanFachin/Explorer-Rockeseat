@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #7159c1;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 20vh 70vh 10vh;
+
+    /*Definindo as posições dos elementos na página*/
+    grid-template-areas:  "h h"
+                          "m a"
+                          "f f";
+
+}
+    
+
+header{
+    background-color: yellow;
+
+    /* Começa na linha "virtual" de número 1 e termina linha virtual de número 3*/
+    /* grid-column-start: 1; */
+    /* grid-column-end: 3; */
+
+    /*Definindo que o header vai ser o elemento h, que foi definido no grid-template-area*/
+    grid-area: h;
+}
+
+main{
+    background-color: blue;
+
+    /* grid-column-start: 1; */
+    /* grid-column-end: 2; */
+
+    /*Definindo que o main vai ser o elemento m, que foi definido no grid-template-area*/
+    grid-area: m;
+}
+
+aside{
+    background-color: green;
+    /* grid-column-start: 2; */
+    /* grid-column-end: 3; */
+
+
+    /*Definindo que o aside vai ser o elemento a, que foi definido no grid-template-area*/
+    grid-area: a;
+}
+
+footer{
+    background-color: red;
+
+    /* grid-column-start: 1; */
+    /* grid-column-end: 3; */
+
+    /*Definindo que o footer vai ser o elemento f, que foi definido no grid-template-area*/
+    grid-area: f;
+}
