@@ -1,11 +1,10 @@
-
-<h1 align="center">
-    <a href="https://www.rocketseat.com.br/explorer"> 🚀 Explorer </a>
-</h1>
-<p align="center">Pasta onde serão armazenados os projetos realizados durante as aulas do programa EXPLORER da ROCKESEAT</a>. </p>
-
+<div align="center">
+  <img alt="Logo Explorer" title="Explorer" src="./assets/logoExplorer.png">
+</div>
 <br>
-<br>
+
+<p>Pasta onde serão armazenados todos os projetos realizados durante as aulas do programa EXPLORER da ROCKESEAT</a>. </p>
+
 <br>
 <br>
 
@@ -15,17 +14,21 @@
   - [Projeto 01](#projeto-01)
   - [Projeto 02](#projeto-02)
   - [Projeto 03](#projeto-03)
+  
 - [Stage 03]
+
   - [Projeto 04](#projeto-04)
   - [Projeto 05](#projeto-05)
   - [Projeto 06](#projeto-06)
   - [Projeto 07](#projeto-07)
   - [Projeto 08](#projeto-08)
 - [Stage 05]
+
   - [Projeto 09](#projeto-09)
   - [Projeto 10](#projeto-10)
   - [Projeto 11](#projeto-11)
 - [Stage 06]
+
   - [Projeto 12](#projeto-12)
 
 
