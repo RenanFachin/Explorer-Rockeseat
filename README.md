@@ -38,12 +38,19 @@
   
 <br>
 <br>
-<br>
+
+
+<div align="center">
+  <img alt="GitHub last commit" height="25" width="140"src="https://img.shields.io/github/last-commit/RenanFachin/Explorer-Rockeseat?color=%23725CED&style=flat-square">
+</div>
 <br>
 
 <div align="center">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/RenanFachin/Explorer-Rockeseat?color=%23725CED&style=flat-square">
+  <img align="center" alt="Renan-Js" height="70" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="Renan-HTML" height="70" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="Renan-CSS" height="70" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 </div>
+
 
 <br>
 <br>
