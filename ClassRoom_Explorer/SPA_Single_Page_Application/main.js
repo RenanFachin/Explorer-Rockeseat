@@ -27,7 +27,7 @@ const newRoutesPage = {
 }
 
 // Quando clicado
-const handleLocation = async currentLink => {
+const handleLocation = async () => {
     makeLinkActive() // dizendo para a página ter o nav em bold ativado pelo link e pelo clique
     addCurentPageClassToBody() // Adicionando ao body a página atual
 
