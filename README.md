@@ -1,85 +1,49 @@
 <div align="center">
   <img alt="Logo Explorer" title="Explorer" src="./assets/logoExplorer.png">
 </div>
-<br>
-
-<p>Pasta onde serão armazenados todos os projetos realizados durante as aulas do programa EXPLORER da ROCKESEAT</a>. </p>
 
 <br>
 <br>
 
-# PROJETOS REALIZADOS DURANTE O CURSO
+<p align="center">Pasta onde serão armazenados todos os projetos realizados durante as aulas do programa EXPLORER da ROCKESEAT</a>. </p>
 
-- [Stage 02]
-  - [Projeto 01](#projeto-01)
-  - [Projeto 02](#projeto-02)
-  - [Projeto 03](#projeto-03)
+<br>
+<br>
+
+## PROJETOS REALIZADOS DURANTE O CURSO
+
+- [Stage 02 - INTRODUÇÃO AO HTML E CSS]
+  - [Projeto 01 - Móveis customizados](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2002/01.LandingPage-%20Moveis%20Customizados)
+  - [Projeto 02 - Treine.me](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2002/02.LandingPage%20-%20Treine.me)
+  - [Projeto 03 - Rocket.Sect](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2002/03.LandingPage%20-%20RocketSect)
   
-- [Stage 03]
+- [Stage 03 - AVANÇADO NO HTML E CSS]
+  - [Projeto 04 - Formulário](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2003/04.%20Formulario)
+  - [Projeto 05 - Página com Responsividade](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2003/05.%20Projeto-Responsividade)
+  - [Projeto 06 - Página com Responsividade Avançada](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2003/06.%20Responsividade-Avancado)
+  - [Projeto 07 - Desafio Formulário](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2003/07.%20Desafio-Formulario)
+  - [Projeto 08 - SpaceCream Page](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2003/08.%20Desafio-SpaceCreamResponsiveProject)
+  
+- [Stage 05 - JAVASCRIPT]
+  - [Projeto 09 - Focus Timer](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2005/FocusTimerPomodoroMethod)
+  - [Projeto 10 - Jogo de Advinhação](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2005/Jogodeadivinhacao)
+  - [Projeto 11 - Focus Timer 2.0](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2005/11.%20FocusTimer)
+  
+- [Stage 06 - JAVASCRIPT com API]
+  - [Projeto 12 - Github Favorites](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2006/11.%20Github-Favorites)
 
-  - [Projeto 04](#projeto-04)
-  - [Projeto 05](#projeto-05)
-  - [Projeto 06](#projeto-06)
-  - [Projeto 07](#projeto-07)
-  - [Projeto 08](#projeto-08)
-- [Stage 05]
-
-  - [Projeto 09](#projeto-09)
-  - [Projeto 10](#projeto-10)
-  - [Projeto 11](#projeto-11)
-- [Stage 06]
-
-  - [Projeto 12](#projeto-12)
-
-
-
+- [STAGE 08 - BACKEND]
+  - [Projeto 13 - RocketNotes](https://github.com/RenanFachin/RS_APIBackEnd)
+  
+  
+<br>
+<br>
 <br>
 <br>
 
-### [Projeto 01](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2002/01.LandingPage-%20Moveis%20Customizados)
+<div align="center">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/RenanFachin/RS_APICinemaRating?color=%23725CED&style=flat-square">
+</div>
 
-![01.LandingPage- Moveis Customizados](https://i.imgur.com/TUwsf54.jpg)
-
-### [Projeto 02](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2002/02.LandingPage%20-%20Treine.me)
-
-![02.LandingPage - Treine.me](https://i.imgur.com/m7deL7V.jpg)
-
-### [Projeto 03](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2002/03.LandingPage%20-%20RocketSect)
-
-![03.LandingPage - RocketSect](https://i.imgur.com/e3gCs6a.jpg)
-
-### [Projeto 04](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2003/04.%20Formulario)
-
-![04.Formulario](https://i.imgur.com/eAxsX4S.jpg)
-
-### [Projeto 05](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2003/05.%20Projeto-Responsividade)
-
-![05.Projeto-Responsividade](https://i.imgur.com/bmJ0BbK.jpg)
-
-### [Projeto 06](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2003/06.%20Responsividade-Avancado)
-
-![06.Responsividade-Avancado](https://i.imgur.com/pzkLyF6.jpg)
-
-### [Projeto 07](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2003/07.%20Desafio-Formulario)
-
-![07. Desafio-Formulário](https://i.imgur.com/fNWhRVL.jpg)
-
-### [Projeto 08](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2003/08.%20Desafio-SpaceCreamResponsiveProject)
-
-![08. Space Cream Project](https://i.imgur.com/QJhXGjj.jpg)
-
-### [Projeto 09](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2005/FocusTimerPomodoroMethod)
-
-![09. FocusTimerPomodoroMethod](https://i.imgur.com/kdyCrnx.jpg)
-
-### [Projeto 10](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2005/Jogodeadivinhacao)
-
-![10. FocusTimerPomodoroMethod](https://i.imgur.com/qZiaASN.jpg)
-
-### [Projeto 11](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2005/11.%20FocusTimer)
-
-![11. TimerProject](https://i.imgur.com/zkmWBv4.jpg)
-
-### [Projeto 12](https://github.com/RenanFachin/Explorer-Rockeseat/tree/main/STAGE%2006/11.%20Github-Favorites)
-
-![12. GitHub Favorites](https://i.imgur.com/yOkvArq.jpg)
+<br>
+<br>
