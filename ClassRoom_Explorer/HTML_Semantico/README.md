@@ -82,9 +82,7 @@ Essas seções são, muitas vezes, repsentadas como barras laterais. Muitas veze
 É um container genérico para conteúdo de fluxo, que de certa forma não representa nada.
 
 Ele pode ser utilizado para agrupar elementos para fins de estilos. 
-
-<aside>
-<img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/24fb845d-09b8-4652-99b4-31683d87fe33/HTML5.svg" alt="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/24fb845d-09b8-4652-99b4-31683d87fe33/HTML5.svg" width="40px" /> <DIV> é um elemento de display block (de nível de bloco)
+<DIV> é um elemento de display block (de nível de bloco)
 
 </aside>
 
@@ -92,7 +90,6 @@ Ele pode ser utilizado para agrupar elementos para fins de estilos.
 
 É um container genérico em linha para conteúdo fraseado, que não repsenta nada por natureza.
 
-<aside>
-<img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cc706d03-f3a7-4f01-a57d-69ead82501c1/HTML5.svg" alt="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cc706d03-f3a7-4f01-a57d-69ead82501c1/HTML5.svg" width="40px" /> <SPAN> é um elemento display inline (de nível de linha)
+<SPAN> é um elemento display inline (de nível de linha)
 
 </aside>
