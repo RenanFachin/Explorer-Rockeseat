@@ -45,6 +45,28 @@
                 </React.StrictMode>
               )
           ```
+        - FORMA QUE É FEITO O IMPORT DE ESTILOS NA MAIN.JSX
+        
+        ```jsx
+        // Utilizando os Estilos
+            import { ThemeProvider } from 'styled-components'
+            import theme from './styles/theme'
+            import GlobalStyles from './styles/global'
+            
+            // Inicializando
+            <React.StrictMode>
+
+                <ThemeProvider theme={theme}>
+                  <GlobalStyles/>
+
+                    <SignIn />
+
+                </ThemeProvider>
+           </React.StrictMode>
+
+        ```
+        
+        
   - no arquivo `Home` é onde realmente vai ficar o html que será renderizado pela main.jsx e depois mostrada pela index.html
       - Estrutura padrão:
           ```jsx
@@ -61,7 +83,7 @@
 !       /assets
             /img/
 !       /pages
-+              /Home
++            /Home
               /index.jsx
               /styles.js
 +            /SignIn
@@ -80,6 +102,36 @@ Aproveitam métodos atuais de componentização em JAVASCRIPT apra criar COMPONE
 
 ### Styled-components
 Desenvolvido para melhorar a maneira que lidamos com o CSS nos `COMPONENTES` de aplicações REACT.
+
+```
++       /NomeDoComponente
+          /index.jsx
+          /styles.js
+```
+
+### Estrutura padrão
+Na index.jsx
+```jsx
+import {Container} from './styles'
+
+export function NomeDoComponente(){
+  return(
+    <Container>
+    </Container>
+  )
+}
+```
+
+Na styles.js
+```js
+import styled from 'styled-components'
+
+export const Container = styled.div`
+/*
+Colocar as estilizações aqui
+*/
+`
+```
 
 `COMPONENTES` = Reaproveitamento de código de maneira eficiente
 
